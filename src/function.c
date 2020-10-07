@@ -52,18 +52,6 @@ int fact(int input1)
     }
 }
 
-double cosine(double triginput)
-{
-    double result = cos(triginput);
-    return result;
-    
-}
-double sine(double triginput)
-{
-    double result = sin(triginput);
-    return result;
-    
-}
 int power(int input1,int input2)
 {
     int result = pow(input1,input2);
