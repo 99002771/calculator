@@ -12,7 +12,7 @@ int main()
     printf("5.Square Root\n");
     printf("6.Modulus\n");
     printf("7.Factorial\n");
-    printf("8.Find the sin value\n");
+    printf("8.Find the power\n");
     printf("\nEnter you choice: ");
     scanf("%d",&choice);
     switch(choice)
