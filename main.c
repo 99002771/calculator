@@ -12,9 +12,7 @@ int main()
     printf("5.Square Root\n");
     printf("6.Modulus\n");
     printf("7.Factorial\n");
-    printf("8.Find Cos of value\n");
-    printf("9.Power of x,y\n");
-    printf("10.Find the sin value\n");
+    printf("8.Find the sin value\n");
     printf("\nEnter you choice: ");
     scanf("%d",&choice);
     switch(choice)
@@ -68,23 +66,7 @@ int main()
             result = fact(input1);
             printf("%d",result);
             break;
-            
         case 8:
-            printf("\nEnter a number to find cosine");
-            scanf("%lf",&triginput);
-            trigoutput = cosine(triginput);
-            printf("%lf",trigoutput);
-            break;
-        
-        case 9:
-            printf("\nEnter a number to find sin");
-            scanf("%lf",&triginput);
-            trigoutput = sine(triginput);
-            printf("%lf",trigoutput);
-            break;
-            
-            
-        case 10:
             printf("\nEnter a number for exponention");
             scanf("%d%d",&input1,&input2);
             result = power(input1,input2);
